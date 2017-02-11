@@ -21,7 +21,7 @@ Recently Nick pointed me to Gayle Laakmann McDowel's incredible book,
 _Cracking the Coding Interview_. This gem is exactly what I needed! 
 In physics, I have guided so many students through professional development,
 carefully teaching and testing them to think like physicists. Problem
-solving is critical, being able to do thinks like calculate the crtitical
+solving is critical, being able to do things like calculating the crtitical
 temperature for Bose-Einstein Condensation on a white board starting from
 fundamental physics concepts and calculus technques. McDowel's book is an
 incredible overview of the Computer Science canon of problems, organized by
