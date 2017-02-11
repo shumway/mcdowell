@@ -5,7 +5,7 @@ is in computational physics. As a Ph. D. student at the University of
 Illinois, I taught myself C++ and Java, reading _Design Patterns_ by the
 Gang of Four and Bjarne Stroustrup's tome _The C++ Programming Language_
 cover to cover. Nevertheless, my computing skills are heavy on numerical
-methods, especially Monte Carlo techniques for many-body physics and
+methods, especially Monte Carlo techniques for quantum many-body physics and
 linear algebraic techniques for implicit solutions to partial differential
 equations. Since then I have also studied software craftsmanship, which offers 
 another beautiful and practical perspective computer programming.
@@ -17,7 +17,7 @@ the very insightful Nicholas Vaidyanathan, told me I should formally learn
 computer algorithms. I followed up by taking soom MOOC classes on algorithms
 and confirmed that there was a lot I could learn.
 
-Recently Nick pointed me to Gayle Laakmann McDowel's incredible book, 
+Recently Nick pointed me to Gayle Laakmann McDowell's incredible book, 
 _Cracking the Coding Interview_. This gem is exactly what I needed! 
 In physics, I have guided so many students through professional development,
 carefully teaching and testing them to think like physicists. Problem
@@ -45,6 +45,6 @@ My emphasis is whether I can see that my solutions are clear and correct.
 In my professional work, I focus on code that is understandable by others:
 clear variable and function names, well designed classes, descriptive
 unit test coverage, and appropriate comments. That is not my goal in these
-problems! Further, to respect Ms. McDowel's excellent work, I am not
+problems! Further, to respect Ms. McDowell's excellent work, I am not
 restating her questions or giving much context. Please buy her book, read it,
 and enjoy it for yourself.
