@@ -1,0 +1,51 @@
+#include <iostream>
+#include <string>
+
+int CountDiffs(
+    std::string::const_iterator i1,
+    std::string::const_iterator end1,
+    std::string::const_iterator i2,
+    std::string::const_iterator end2,
+    int ndiff) {
+  if (ndiff > 1) {
+    // Bail early if we have exceded one difference.
+    return ndiff;
+  } 
+  if (i1 == end1) {
+    // Done if at end of string one.
+    return ndiff + (end2 - i2);
+  }
+  if (i2 == end2) {
+    // Done if at end of string two.
+    return ndiff + (end1 - i1);
+  }
+  if (*i1 == *i2) {
+    // Move on if these characters match
+    return CountDiffs(i1 + 1, end1, i2 + 1, end2, ndiff);
+  }
+  // Otherwise take the best of the three edits (replace, delete, or insert)
+  return std::min(std::min(
+    CountDiffs(i1 + 1, end1, i2 + 1, end2, ndiff + 1),
+    CountDiffs(i1 + 1, end1, i2, end2, ndiff + 1)),
+    CountDiffs(i1, end1, i2 + 1, end2, ndiff + 1));
+}
+
+bool IsOneAway(const std::string& s1, const std::string& s2) {
+  int ndiff = CountDiffs(s1.begin(), s1.end(), s2.begin(), s2.end(), 0);
+  return ndiff <= 1;
+}
+
+
+int main() {
+  std::string s1 = "pale", s2 = "ple";
+  std::cout << s1 << ", " << s2 << ": " << IsOneAway(s1, s2) << std::endl;
+
+  s1 = "pales", s2 = "pale";
+  std::cout << s1 << ", " << s2 << ": " << IsOneAway(s1, s2) << std::endl;
+
+  s1 = "pale", s2 = "bale";
+  std::cout << s1 << ", " << s2 << ": " << IsOneAway(s1, s2) << std::endl;
+
+  s1 = "pale", s2 = "bake";
+  std::cout << s1 << ", " << s2 << ": " << IsOneAway(s1, s2) << std::endl;
+}
