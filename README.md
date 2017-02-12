@@ -20,11 +20,11 @@ the very insightful Nicholas Vaidyanathan, told me I should formally learn
 computer algorithms. I followed up by taking soom MOOC classes on algorithms
 and confirmed that there was a lot I could learn.
 
-Recently Nick pointed me to Gayle Laakmann McDowel's incredible book, 
+Recently Nick pointed me to Gayle Laakmann McDowell's incredible book, 
 [_Cracking the Coding Interview_][mcdowell]. This gem is exactly what I needed! 
 In physics, I have guided so many students through professional development,
 carefully teaching and testing them to think like physicists. Problem
-solving is critical, being able to do thinks like calculate the crtitical
+solving is critical, being able to do things like calculating the crtitical
 temperature for Bose-Einstein Condensation on a white board starting from
 fundamental physics concepts and calculus technques. McDowel's book is an
 incredible overview of the Computer Science canon of problems, organized by
@@ -48,7 +48,7 @@ My emphasis is whether I can see that my solutions are clear and correct.
 In my professional work, I focus on code that is understandable by others:
 clear variable and function names, well designed classes, descriptive
 unit test coverage, and appropriate comments. That is not my goal in these
-problems! Further, to respect Ms. McDowel's excellent work, I am not
+problems! Further, to respect Ms. McDowell's excellent work, I am not
 restating her questions or giving much context. Please buy her book, read it,
 and enjoy it for yourself.
 
