@@ -2,12 +2,15 @@
 
 I have programmed computers since I was a kid, but my academic training
 is in computational physics. As a Ph. D. student at the University of
-Illinois, I taught myself C++ and Java, reading _Design Patterns_ by the
-Gang of Four and Bjarne Stroustrup's tome _The C++ Programming Language_
+Illinois, I taught myself C++ and Java, reading 
+[_Design Patterns_][gof]
+by the Gang of Four and Bjarne Stroustrup's tome 
+[_The C++ Programming Language_][stroustrup]
 cover to cover. Nevertheless, my computing skills are heavy on numerical
-methods, especially Monte Carlo techniques for many-body physics and
-linear algebraic techniques for implicit solutions to partial differential
-equations. Since then I have also studied software craftsmanship, which offers 
+methods, especially Monte Carlo techniques for many-body quantum physics 
+([pi-qmc][piqmc]) and linear algebraic techniques for implicit 
+solutions to partial differential equations ([ECHELON][echelon]). 
+Since then I have also studied software craftsmanship, which offers 
 another beautiful and practical perspective computer programming.
 
 Mid-career, I decided to leave behind my physics professorship and
@@ -18,7 +21,7 @@ computer algorithms. I followed up by taking soom MOOC classes on algorithms
 and confirmed that there was a lot I could learn.
 
 Recently Nick pointed me to Gayle Laakmann McDowel's incredible book, 
-_Cracking the Coding Interview_. This gem is exactly what I needed! 
+[_Cracking the Coding Interview_][mcdowell]. This gem is exactly what I needed! 
 In physics, I have guided so many students through professional development,
 carefully teaching and testing them to think like physicists. Problem
 solving is critical, being able to do thinks like calculate the crtitical
@@ -48,3 +51,10 @@ unit test coverage, and appropriate comments. That is not my goal in these
 problems! Further, to respect Ms. McDowel's excellent work, I am not
 restating her questions or giving much context. Please buy her book, read it,
 and enjoy it for yourself.
+
+
+[stroustrup]: http://stroustrup.com/4th.html
+[gof]: https://en.wikipedia.org/wiki/Design_Patterns
+[piqmc]: https://github.com/phys-tools/pi-qmc
+[echelon]: http://stoneridgetechnology.com/echelon
+[mcdowell]: http://www.gayle.com/books/
